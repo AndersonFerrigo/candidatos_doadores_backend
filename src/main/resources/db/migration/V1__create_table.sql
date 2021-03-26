@@ -1,0 +1,22 @@
+create table if not exists `doador`(
+	`id` int not null primary key auto_increment,
+	`nome` varchar(50) not null,
+	`cpf` varchar(20) not null,
+    `rg` varchar (15) not null,
+    `data_nasc` varchar(20) not null,
+	`sexo` varchar(10) not null,
+	`mae` varchar(50) not null,
+    `pai` varchar(50) not null,
+    `email` varchar (255) not null,
+    `cep` varchar (10) not null,
+    `endereco` varchar (90) not null,
+    `numero` int not null,
+    `bairro` varchar(100) not null,
+    `cidade` varchar(100) not null,
+	`estado` varchar (100) not null,
+    `telefone_fixo` varchar(30) not null,
+    `celular` varchar(30) not null,    
+    `altura` double not null,
+    `peso` int not null,
+	`tipo_sanguineo` varchar (5) not null
+);
