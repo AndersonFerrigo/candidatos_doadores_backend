@@ -1,7 +1,15 @@
 ﻿# candidatos_doadores_backend
-﻿# Para realizar a conexão com o banco de dados mysql, será necessário configurar o user and password no arquivo application.properties como:
- # user: root
- # password: estudos2012
+
+Antes de rodar o prgrama é necessário criar um database no MYSQL com o nome doadores, comando abaixo:
+
+ create database doadores;
+  
+
+# Para realizar a conexão com o banco de dados mysql, será necessário configurar o user and password no arquivo application.properties que fica na pasta resources do projeto conforme as configurações de susuario  e senha do seu banco.
+ No meu caso essas são as configurações.  
+  
+  user: root
+  password: estudos2012
 ﻿
  # Existe dois arquivos de migration que são responsaveis por : 
   #criar a tabela.
